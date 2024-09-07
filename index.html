@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VentSpace - Home</title>
+</head>
+<body>
+    <h1>Welcome to VentSpace</h1>
+    <p><a href="/create">Create New Rant</a></p>
+    <ul>
+        {{#each rants}}
+        <li>{{content}}</li>
+        {{/each}}
+    </ul>
+    <nav>
+        <a href="/about">About</a> |
+        <a href="/contacts">Contact</a> |
+        <a href="/support">Support</a>
+    </nav>
+
+</body></html>
